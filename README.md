@@ -4,7 +4,7 @@ This project shows a simple CloudWatch Events example with [Jets](http://rubyonj
 
 ## Usage
 
-    git clone https://github.com/tongueroo/jets-sqs-example demo
+    git clone https://github.com/tongueroo/jets-cloudwatch-event-example demo
     cd demo
     bundle
 
