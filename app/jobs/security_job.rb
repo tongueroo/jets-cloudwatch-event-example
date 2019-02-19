@@ -1,5 +1,6 @@
 class SecurityJob < ApplicationJob
   rule_event(
+    description: "Detects when instances stop",
     source: ["aws.ec2"],
     detail_type: ["EC2 Instance State-change Notification"],
     detail: {
