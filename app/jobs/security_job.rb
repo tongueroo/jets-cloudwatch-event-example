@@ -1,5 +1,5 @@
 class SecurityJob < ApplicationJob
-  event_pattern(
+  rule_event(
     source: ["aws.ec2"],
     detail_type: ["EC2 Instance State-change Notification"],
     detail: {
